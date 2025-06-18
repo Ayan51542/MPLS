@@ -1,6 +1,10 @@
 # MPLS
 Implementation of Multiprotocol Label Switching
 
+#IMPORTANT!!!!!
+#Copy the file c7200-adventerprisek9-mz.152-4.M7.image-512.ghost and past it to \mpls\project-files\dynamips
+
+
 # MPLS Network Implementation with Traffic Engineering
 
 This project demonstrates the implementation of a Multiprotocol Label Switching (MPLS) network to showcase its advantages over traditional IP routing. [cite_start]The primary goals were to highlight efficiency improvements in packet forwarding, reduce lookup times, and implement enhanced traffic engineering using GNS3. [cite: 2, 3]
