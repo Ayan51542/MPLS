@@ -1,0 +1,76 @@
+Dec 02 20:46:51.775 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 02 20:46:51.777 HYPERVISOR: Started on IP = localhost, TCP port = 55094.
+Dec 02 20:46:52.255 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 02 20:46:52.258 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\nahhy\Documents\nps\mpls\project-files\dynamips 
+Dec 02 20:46:52.258 GENERAL: working_dir=C:\Users\nahhy\Documents\nps\mpls\project-files\dynamips
+Dec 02 20:46:52.259 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\nahhy\Documents\nps\mpls\project-files\dynamips\e8559af9-f14d-4cff-9245-489db15fe565 
+Dec 02 20:46:52.260 GENERAL: working_dir=C:\Users\nahhy\Documents\nps\mpls\project-files\dynamips\e8559af9-f14d-4cff-9245-489db15fe565
+Dec 02 20:46:52.261 HYPERVISOR: exec_cmd: vm create R9 9 c7200 
+Dec 02 20:46:52.265 VM: VM R9 created.
+Dec 02 20:46:52.268 HYPERVISOR: exec_cmd: vm set_con_tcp_port R9 5008 
+Dec 02 20:46:52.269 HYPERVISOR: exec_cmd: c7200 get_mac_addr R9 
+Dec 02 20:46:52.269 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 02 20:46:52.270 HYPERVISOR: exec_cmd: vm slot_add_binding R9 0 0 C7200-IO-FE 
+Dec 02 20:46:52.274 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/nahhy/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Dec 02 20:46:52.276 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 02 20:46:52.277 HYPERVISOR: exec_cmd: vm set_idle_pc R9 0x60189214 
+Dec 02 20:46:52.279 HYPERVISOR: exec_cmd: vm set_exec_area R9 64 
+Dec 02 20:46:52.281 HYPERVISOR: exec_cmd: vm set_ram R9 512 
+Dec 02 20:46:52.284 HYPERVISOR: exec_cmd: vm set_nvram R9 512 
+Dec 02 20:46:52.286 HYPERVISOR: exec_cmd: vm set_disk0 R9 0 
+Dec 02 20:46:52.289 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 02 20:46:52.290 HYPERVISOR: exec_cmd: vm slot_add_binding R9 1 0 PA-FE-TX 
+Dec 02 20:46:52.291 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 02 20:46:52.292 HYPERVISOR: exec_cmd: vm slot_add_binding R9 2 0 PA-FE-TX 
+Dec 02 20:46:52.294 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 02 20:46:52.295 HYPERVISOR: exec_cmd: vm slot_add_binding R9 3 0 PA-FE-TX 
+Dec 02 20:46:52.297 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 02 20:46:52.297 HYPERVISOR: exec_cmd: vm slot_add_binding R9 4 0 PA-FE-TX 
+Dec 02 20:46:52.300 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 02 20:46:52.300 HYPERVISOR: exec_cmd: vm slot_add_binding R9 5 0 PA-FE-TX 
+Dec 02 20:46:52.302 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 02 20:46:52.303 HYPERVISOR: exec_cmd: vm slot_add_binding R9 6 0 PA-FE-TX 
+Dec 02 20:46:52.483 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/nahhy/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Dec 02 20:47:13.354 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/nahhy/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Dec 02 20:49:15.795 HYPERVISOR: exec_cmd: vm set_ios R9 C:/Users/nahhy/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Dec 02 20:49:15.797 HYPERVISOR: exec_cmd: vm rename R9 PE2 
+Dec 02 20:49:15.941 HYPERVISOR: exec_cmd: vm set_ios PE2 C:/Users/nahhy/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Dec 02 20:51:54.287 HYPERVISOR: exec_cmd: nio create_udp udp-bff60fb2-de67-4a6a-886c-bec90b6d29b3 10070 127.0.0.1 10071 
+Dec 02 20:51:55.185 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE2 0 0 udp-bff60fb2-de67-4a6a-886c-bec90b6d29b3 
+Dec 02 20:51:55.188 HYPERVISOR: exec_cmd: vm get_status PE2 
+Dec 02 20:52:01.834 HYPERVISOR: exec_cmd: nio create_udp udp-3cc4d70f-be70-4a0f-938c-0bad6dfb9b1e 10076 127.0.0.1 10077 
+Dec 02 20:52:01.838 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE2 1 0 udp-3cc4d70f-be70-4a0f-938c-0bad6dfb9b1e 
+Dec 02 20:52:01.839 HYPERVISOR: exec_cmd: vm get_status PE2 
+Dec 02 20:52:06.945 HYPERVISOR: exec_cmd: nio create_udp udp-396e1a23-3a63-4095-a952-32a1d5b55b91 10080 127.0.0.1 10081 
+Dec 02 20:52:06.949 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE2 2 0 udp-396e1a23-3a63-4095-a952-32a1d5b55b91 
+Dec 02 20:52:06.951 HYPERVISOR: exec_cmd: vm get_status PE2 
+Dec 02 20:52:12.755 HYPERVISOR: exec_cmd: nio create_udp udp-aa130595-ea5b-4bee-810f-3b1c109b94ed 10086 127.0.0.1 10087 
+Dec 02 20:52:12.760 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE2 3 0 udp-aa130595-ea5b-4bee-810f-3b1c109b94ed 
+Dec 02 20:52:12.762 HYPERVISOR: exec_cmd: vm get_status PE2 
+Dec 02 20:52:20.654 HYPERVISOR: exec_cmd: nio create_udp udp-8a6e117d-1a5b-4b4b-b31c-0e69548abec0 10092 127.0.0.1 10093 
+Dec 02 20:52:20.658 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE2 4 0 udp-8a6e117d-1a5b-4b4b-b31c-0e69548abec0 
+Dec 02 20:52:20.659 HYPERVISOR: exec_cmd: vm get_status PE2 
+Dec 02 20:53:01.641 HYPERVISOR: exec_cmd: vm set_ios PE2 C:/Users/nahhy/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Dec 02 20:54:28.423 HYPERVISOR: exec_cmd: vm set_ghost_status PE2 2 
+Dec 02 20:54:28.424 HYPERVISOR: exec_cmd: vm set_ghost_file PE2 C:\Users\nahhy\Documents\nps\mpls\project-files\dynamips\c7200-adventerprisek9-mz.152-4.M7.image-512.ghost 
+Dec 02 20:54:28.426 HYPERVISOR: exec_cmd: vm get_status PE2 
+Dec 02 20:54:28.432 HYPERVISOR: exec_cmd: vm set_config PE2 configs\i9_startup-config.cfg 
+Dec 02 20:54:28.433 HYPERVISOR: exec_cmd: vm start PE2 
+Dec 02 20:55:04.236 HYPERVISOR: exec_cmd: vm extract_config PE2 
+Dec 02 20:56:34.328 HYPERVISOR: exec_cmd: vm extract_config PE2 
+Dec 02 21:51:50.843 HYPERVISOR: exec_cmd: vm extract_config PE2 
+Dec 02 23:32:38.758 HYPERVISOR: exec_cmd: vm extract_config PE2 
+Dec 02 23:54:09.287 HYPERVISOR: exec_cmd: vm extract_config PE2 
+Dec 03 00:19:39.869 HYPERVISOR: exec_cmd: vm extract_config PE2 
+Dec 03 00:29:40.117 HYPERVISOR: exec_cmd: vm extract_config PE2 
+Dec 03 00:38:10.246 HYPERVISOR: exec_cmd: vm extract_config PE2 
+Dec 03 01:02:40.905 HYPERVISOR: exec_cmd: vm extract_config PE2 
+Dec 03 01:47:22.363 HYPERVISOR: exec_cmd: nio create_udp udp-9c989c76-6510-42e7-89f2-347fd402a831 10098 127.0.0.1 10099 
+Dec 03 01:47:22.367 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE2 5 0 udp-9c989c76-6510-42e7-89f2-347fd402a831 
+Dec 03 01:47:22.368 HYPERVISOR: exec_cmd: vm get_status PE2 
+Dec 03 01:47:22.369 HYPERVISOR: exec_cmd: vm slot_enable_nio PE2 5 0 
+Dec 03 04:43:51.224 HYPERVISOR: exec_cmd: vm extract_config PE2 
+Dec 03 05:10:40.206 HYPERVISOR: Stopped.
+Dec 03 05:10:40.895 VM: VM PE2 shutdown.
+Dec 03 05:10:40.895 VM: VM PE2 destroyed.
+Dec 03 05:10:40.908 GENERAL: reset done.

@@ -1,0 +1,66 @@
+Dec 02 20:46:25.417 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 02 20:46:25.418 HYPERVISOR: Started on IP = localhost, TCP port = 55041.
+Dec 02 20:46:25.885 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 02 20:46:25.888 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\nahhy\Documents\nps\mpls\project-files\dynamips 
+Dec 02 20:46:25.888 GENERAL: working_dir=C:\Users\nahhy\Documents\nps\mpls\project-files\dynamips
+Dec 02 20:46:25.889 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\nahhy\Documents\nps\mpls\project-files\dynamips\c4678fdd-2e58-4b53-9b80-be69b96f5276 
+Dec 02 20:46:25.890 GENERAL: working_dir=C:\Users\nahhy\Documents\nps\mpls\project-files\dynamips\c4678fdd-2e58-4b53-9b80-be69b96f5276
+Dec 02 20:46:25.891 HYPERVISOR: exec_cmd: vm create R5 5 c7200 
+Dec 02 20:46:25.895 VM: VM R5 created.
+Dec 02 20:46:25.898 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 5004 
+Dec 02 20:46:25.899 HYPERVISOR: exec_cmd: c7200 get_mac_addr R5 
+Dec 02 20:46:25.899 HYPERVISOR: exec_cmd: vm get_status R5 
+Dec 02 20:46:25.900 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 0 C7200-IO-FE 
+Dec 02 20:46:25.904 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/nahhy/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Dec 02 20:46:25.906 HYPERVISOR: exec_cmd: vm get_status R5 
+Dec 02 20:46:25.907 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x60189214 
+Dec 02 20:46:25.909 HYPERVISOR: exec_cmd: vm set_exec_area R5 64 
+Dec 02 20:46:25.911 HYPERVISOR: exec_cmd: vm set_ram R5 512 
+Dec 02 20:46:25.913 HYPERVISOR: exec_cmd: vm set_nvram R5 512 
+Dec 02 20:46:25.916 HYPERVISOR: exec_cmd: vm set_disk0 R5 0 
+Dec 02 20:46:25.919 HYPERVISOR: exec_cmd: vm get_status R5 
+Dec 02 20:46:25.920 HYPERVISOR: exec_cmd: vm slot_add_binding R5 1 0 PA-FE-TX 
+Dec 02 20:46:25.922 HYPERVISOR: exec_cmd: vm get_status R5 
+Dec 02 20:46:25.923 HYPERVISOR: exec_cmd: vm slot_add_binding R5 2 0 PA-FE-TX 
+Dec 02 20:46:25.925 HYPERVISOR: exec_cmd: vm get_status R5 
+Dec 02 20:46:25.926 HYPERVISOR: exec_cmd: vm slot_add_binding R5 3 0 PA-FE-TX 
+Dec 02 20:46:25.928 HYPERVISOR: exec_cmd: vm get_status R5 
+Dec 02 20:46:25.928 HYPERVISOR: exec_cmd: vm slot_add_binding R5 4 0 PA-FE-TX 
+Dec 02 20:46:25.930 HYPERVISOR: exec_cmd: vm get_status R5 
+Dec 02 20:46:25.931 HYPERVISOR: exec_cmd: vm slot_add_binding R5 5 0 PA-FE-TX 
+Dec 02 20:46:25.933 HYPERVISOR: exec_cmd: vm get_status R5 
+Dec 02 20:46:25.933 HYPERVISOR: exec_cmd: vm slot_add_binding R5 6 0 PA-FE-TX 
+Dec 02 20:46:26.070 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/nahhy/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Dec 02 20:46:27.620 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/nahhy/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Dec 02 20:46:29.407 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/nahhy/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Dec 02 20:48:58.111 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/nahhy/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Dec 02 20:48:58.112 HYPERVISOR: exec_cmd: vm rename R5 P1 
+Dec 02 20:48:58.246 HYPERVISOR: exec_cmd: vm set_ios P1 C:/Users/nahhy/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Dec 02 20:50:53.717 HYPERVISOR: exec_cmd: nio create_udp udp-f53ea601-40f3-4de4-8905-ff1a0cdeb623 10022 127.0.0.1 10023 
+Dec 02 20:50:54.594 HYPERVISOR: exec_cmd: vm slot_add_nio_binding P1 0 0 udp-f53ea601-40f3-4de4-8905-ff1a0cdeb623 
+Dec 02 20:50:54.596 HYPERVISOR: exec_cmd: vm get_status P1 
+Dec 02 20:51:10.617 HYPERVISOR: exec_cmd: nio create_udp udp-dbd76700-642a-4d8f-aaee-a675f6b30472 10032 127.0.0.1 10033 
+Dec 02 20:51:10.622 HYPERVISOR: exec_cmd: vm slot_add_nio_binding P1 1 0 udp-dbd76700-642a-4d8f-aaee-a675f6b30472 
+Dec 02 20:51:10.623 HYPERVISOR: exec_cmd: vm get_status P1 
+Dec 02 20:51:33.788 HYPERVISOR: exec_cmd: nio create_udp udp-c007d505-2af0-47f7-9592-bd42af3af357 10052 127.0.0.1 10053 
+Dec 02 20:51:33.793 HYPERVISOR: exec_cmd: vm slot_add_nio_binding P1 2 0 udp-c007d505-2af0-47f7-9592-bd42af3af357 
+Dec 02 20:51:33.794 HYPERVISOR: exec_cmd: vm get_status P1 
+Dec 02 20:51:48.472 HYPERVISOR: exec_cmd: nio create_udp udp-7dd7ce18-3766-452a-a73b-1af42c497ce3 10064 127.0.0.1 10065 
+Dec 02 20:51:48.477 HYPERVISOR: exec_cmd: vm slot_add_nio_binding P1 3 0 udp-7dd7ce18-3766-452a-a73b-1af42c497ce3 
+Dec 02 20:51:48.479 HYPERVISOR: exec_cmd: vm get_status P1 
+Dec 02 20:52:42.833 HYPERVISOR: exec_cmd: vm set_ios P1 C:/Users/nahhy/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Dec 02 20:53:58.141 HYPERVISOR: exec_cmd: vm set_ios P1 C:/Users/nahhy/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Dec 02 20:54:27.075 HYPERVISOR: exec_cmd: vm set_ghost_status P1 2 
+Dec 02 20:54:27.078 HYPERVISOR: exec_cmd: vm set_ghost_file P1 C:\Users\nahhy\Documents\nps\mpls\project-files\dynamips\c7200-adventerprisek9-mz.152-4.M7.image-512.ghost 
+Dec 02 20:54:27.079 HYPERVISOR: exec_cmd: vm get_status P1 
+Dec 02 20:54:27.093 HYPERVISOR: exec_cmd: vm set_config P1 configs\i5_startup-config.cfg 
+Dec 02 20:54:27.095 HYPERVISOR: exec_cmd: vm start P1 
+Dec 02 20:54:58.475 HYPERVISOR: exec_cmd: vm extract_config P1 
+Dec 02 20:56:28.632 HYPERVISOR: exec_cmd: vm extract_config P1 
+Dec 02 21:31:50.255 HYPERVISOR: exec_cmd: vm extract_config P1 
+Dec 02 23:19:38.519 HYPERVISOR: exec_cmd: vm extract_config P1 
+Dec 02 23:49:09.189 HYPERVISOR: exec_cmd: vm extract_config P1 
+Dec 03 05:10:40.205 HYPERVISOR: Stopped.
+Dec 03 05:10:40.687 VM: VM P1 shutdown.
+Dec 03 05:10:40.687 VM: VM P1 destroyed.
+Dec 03 05:10:40.689 GENERAL: reset done.
